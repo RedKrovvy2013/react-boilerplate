@@ -1,2 +1,3 @@
 node_modules/
-public/bundle.js
+client/public/bundle.js
+client/public/styles/css/*.css
