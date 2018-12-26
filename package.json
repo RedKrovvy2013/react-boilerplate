@@ -9,8 +9,8 @@
     "axios": "^0.15.3",
     "express": "^4.13.4",
     "path": "^0.12.7",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {

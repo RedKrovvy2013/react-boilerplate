@@ -1,14 +1,12 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
-var {Route, Router, IndexRoute, hashHistory} = require('react-router')
+var { BrowserRouter, Route } = require('react-router-dom')
 
 var main = require('./main')
 
 ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={main}>
-
-    </Route>
-  </Router>,
+  <BrowserRouter>
+    <Route path="/" component={main}/>
+  </BrowserRouter>,
   document.getElementById('app')
 )
